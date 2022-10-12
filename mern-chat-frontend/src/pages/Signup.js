@@ -53,6 +53,9 @@ const Signup = () => {
         if(!image) return alert('Please upload your profile picture');
         const url = await uploadImage(image)
         console.log(url)
+        
+        // Signup the user
+
     }
 
 
@@ -85,7 +88,8 @@ const Signup = () => {
                                 <Form.Check type="checkbox" label="Check me out" />
                             </Form.Group>
                             <Button variant="primary" type="submit">
-                                Create acoount
+                                {/* Create acoount */}
+                                {uploadImg ? 'Signing you...' : 'Signup'}
                             </Button>
                             <div className="py-4">
                                 <p className="text-center">
