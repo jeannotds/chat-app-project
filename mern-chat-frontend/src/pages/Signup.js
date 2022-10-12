@@ -8,7 +8,7 @@ import { useState } from "react";
 const Signup = () => {
 
     const [name, setName] = useState('')
-    const [mail, setMail] = useState('')
+    const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     //Image upload state
@@ -78,7 +78,7 @@ const Signup = () => {
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPassword" >
                                 <Form.Label>Email</Form.Label>
-                                <Form.Control type="mail" placeholder="Email" onChange={(e) => setMail(e.target.value)} value={mail}/>
+                                <Form.Control type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email}/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Label>Password</Form.Label>
