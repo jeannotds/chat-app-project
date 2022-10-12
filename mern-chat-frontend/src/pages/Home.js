@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import Navigation from "../components/Navigation"
 
-
 const Home = () => {
     return (
         <div>
@@ -12,5 +11,4 @@ const Home = () => {
         </div>
     )
 }
-
 export default Home

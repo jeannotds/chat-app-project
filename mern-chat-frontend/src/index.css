@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login__bg{
+  background-image: url('images/signup.png');
+}
+
+.signup__bg{
+  background-image: url('images/signup.png');
+  height: 92vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.signup-profile-pic{
+  border-radius: 100%;
+  width: 80px;
+
+  margin: 20px 0 0 95px;
+}
+
+.signup-profile-pic__container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.signup-profile-pic{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: contain;
+    height: 100px;
+}
+
+.add-picture-icon{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  background-color: white;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.plus{
+  background-color: rgb(199, 168, 168);
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 80px;
+  bottom: -10px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
